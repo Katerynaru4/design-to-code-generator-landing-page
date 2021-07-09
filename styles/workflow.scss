@@ -1,0 +1,134 @@
+.wokflow {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include for-small-up {
+    margin-top: 120px;
+  }
+  &__title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    position: relative;
+    width: 520px;
+    text-align: left;
+    @include for-small-up {
+      width: 1120px;
+    }
+  }
+
+  &__steps {
+    margin-top: 60px;
+    @include for-small-up {
+      display: flex;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__step {
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.step-card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 520px;
+  position: relative;
+  background-color: $color-white;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  @include for-small-up {
+    height: 220px;
+    width: 320px;
+    position: relative;
+  }
+
+  &::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/DecorationJuju.png);
+  }
+
+  &:nth-child(1) {
+    @include for-small-up {
+      top: 0px;
+
+      margin-right: 80px;
+    }
+  }
+  &:nth-child(2) {
+    @include for-small-up {
+      top: 40px;
+      margin-right: 80px;
+    }
+  }
+  &:nth-child(3) {
+    @include for-small-up {
+      top: 80px;
+    }
+  }
+
+  &:nth-child(2),
+  &:nth-child(3) {
+    &::before {
+      content: '';
+      position: absolute;
+      top: -40px;
+      left: 60px;
+      width: 1px;
+      height: 40px;
+      border-left: 2px dashed $color-blue;
+      @include for-small-up {
+        width: 80px;
+        border-left: none;
+        border-bottom: 2px dashed $color-blue;
+        top: 70px;
+        left: -80px;
+      }
+    }
+  }
+  &__subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: $color-text-blue;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__illustration {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+}

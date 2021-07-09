@@ -1,0 +1,83 @@
+.page-header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 0;
+  @include for-small-up {
+    display: flex;
+    background-color: transparent;
+    padding: 30px 0 0;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    @include for-small-up {
+      margin-right: 220px;
+    }
+  }
+
+  &__logo-image {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  &__logo-text {
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $color-blue;
+  }
+
+  &__navigation {
+    display: none;
+    width: 540px;
+    @include for-small-up {
+      display: flex;
+      justify-content: space-around;
+      margin-right: 20px;
+    }
+  }
+
+  &__navigation-menu-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $color-black;
+  }
+
+  &__upload-btn {
+    display: none;
+    @include for-small-up {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 180px;
+      left: 0px;
+      top: 0px;
+      border-radius: 0px;
+
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: $color-white;
+
+      background: $color-blue;
+      box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+    }
+  }
+}

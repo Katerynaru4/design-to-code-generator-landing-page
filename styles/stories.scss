@@ -1,0 +1,82 @@
+.stories {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-white;
+
+  @include for-small-up {
+    margin-top: 153px;
+    padding-bottom: 160px;
+  }
+  &__title {
+    margin: 0;
+    width: 520px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    @include for-small-up {
+      width: 1120px;
+    }
+  }
+
+  &__cards {
+    margin-top: 50px;
+    @include for-small-up {
+      display: flex;
+    }
+  }
+
+  &__card {
+    margin-top: 40px;
+    &:first-of-type {
+      margin: 0;
+      @include for-small-up {
+        margin-right: 150px;
+      }
+    }
+    @include for-small-up {
+      margin-top: 0;
+    }
+  }
+}
+.story-card {
+  display: flex;
+
+  &__icon {
+    height: 33px;
+    width: 40px;
+    margin-top: 4px;
+    margin-right: 20px;
+  }
+
+  &__content {
+    @include for-small-up {
+      width: 420px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: $color-black;
+  }
+
+  &__description {
+    width: 460px;
+    margin: 0;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 30px;
+    color: $color-black;
+    margin-top: 20px;
+  }
+  &__description-link {
+    color: $color-black;
+  }
+}
