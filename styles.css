@@ -34,13 +34,13 @@ button {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 40px 80px 0;
+  margin: 40px 80px 0;
 }
 @media screen and (min-width: 1160px) {
   .page-header {
     display: flex;
     background-color: transparent;
-    padding: 30px 0 0;
+    margin: 30px 0 0;
   }
 }
 .page-header__logo {
@@ -125,11 +125,11 @@ button {
   }
 }
 .headline__content {
-  padding: 80px 80px 0px 80px;
+  margin: 80px 80px 0px 80px;
 }
 @media screen and (min-width: 1160px) {
   .headline__content {
-    padding: 150px 160px 0 0px;
+    margin: 150px 160px 0 0px;
   }
 }
 .headline__title {
@@ -544,6 +544,11 @@ button {
   line-height: 30px;
   padding: 30px 40px;
 }
+@media screen and (min-width: 1160px) {
+  .feature-card__description {
+    padding: 40px;
+  }
+}
 
 .users {
   margin-top: 125px;
@@ -554,7 +559,7 @@ button {
 @media screen and (min-width: 1160px) {
   .users {
     margin-top: 120px;
-    height: 370px;
+    height: 450px;
   }
 }
 .users__title-mobile {
@@ -818,11 +823,17 @@ button {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1160px) {
+  .purposes {
+    margin-top: 120px;
+  }
+}
 .purposes__mobile-title {
   width: 520px;
   margin: 0;
   font-size: 30px;
   line-height: 60px;
+  font-weight: 400;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -836,7 +847,7 @@ button {
   margin: 0;
   display: none;
   width: 520px;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
