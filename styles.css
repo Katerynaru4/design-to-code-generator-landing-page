@@ -16,14 +16,14 @@ button {
   background-color: #1968fc;
   box-shadow: 0px 2px 0px #d1e1fe;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .section-title::after {
     left: -40px;
     top: 70px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .top-section {
     width: 1120px;
     margin: 0 auto;
@@ -31,13 +31,12 @@ button {
 }
 
 .page-header {
-  height: 90px;
   width: 100%;
   display: flex;
   align-items: center;
   padding: 40px 80px 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-header {
     display: flex;
     background-color: transparent;
@@ -48,7 +47,7 @@ button {
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-header__logo {
     margin-right: 220px;
   }
@@ -69,7 +68,7 @@ button {
   display: none;
   width: 540px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-header__navigation {
     display: flex;
     justify-content: space-around;
@@ -89,7 +88,7 @@ button {
 .page-header__upload-btn {
   display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-header__upload-btn {
     display: flex;
     justify-content: center;
@@ -119,7 +118,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline {
     flex-direction: row;
     justify-content: start;
@@ -128,7 +127,7 @@ button {
 .headline__content {
   padding: 80px 80px 0px 80px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__content {
     padding: 150px 160px 0 0px;
   }
@@ -140,7 +139,7 @@ button {
   line-height: 60px;
   letter-spacing: 1px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__title {
     width: 600px;
   }
@@ -154,7 +153,7 @@ button {
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__description {
     width: 600px;
     margin-top: 20px;
@@ -163,7 +162,7 @@ button {
 .headline__upload-btn {
   display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__upload-btn {
     margin-top: 40px;
     height: 50px;
@@ -195,7 +194,7 @@ button {
   background-color: #1968fc;
   box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__mobile-see-in-action-btn {
     display: none;
   }
@@ -204,7 +203,7 @@ button {
   max-width: 599px;
   margin-top: 80px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__illustration {
     position: absolute;
     top: 130px;
@@ -226,7 +225,7 @@ button {
   color: #fff;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .headline__mobile-upload-btn {
     display: none;
   }
@@ -238,7 +237,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .reviews {
     margin-top: 160px;
     flex-direction: row;
@@ -254,7 +253,7 @@ button {
   background-color: #fff;
   filter: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .review:first-of-type {
     margin-right: 40px;
   }
@@ -305,7 +304,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .wokflow {
     margin-top: 120px;
   }
@@ -320,7 +319,7 @@ button {
   width: 520px;
   text-align: left;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .wokflow__title {
     width: 1120px;
   }
@@ -328,7 +327,7 @@ button {
 .wokflow__steps {
   margin-top: 60px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .wokflow__steps {
     display: flex;
     position: relative;
@@ -353,7 +352,7 @@ button {
   background-color: #fff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .step-card {
     height: 220px;
     width: 320px;
@@ -369,19 +368,19 @@ button {
   right: -5px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/DecorationJuju.png);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .step-card:nth-child(1) {
     top: 0px;
     margin-right: 80px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .step-card:nth-child(2) {
     top: 40px;
     margin-right: 80px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .step-card:nth-child(3) {
     top: 80px;
   }
@@ -395,7 +394,7 @@ button {
   height: 40px;
   border-left: 2px dashed #1968fc;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .step-card:nth-child(2)::before, .step-card:nth-child(3)::before {
     width: 80px;
     border-left: none;
@@ -438,7 +437,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .features {
     margin-top: 120px;
   }
@@ -451,7 +450,7 @@ button {
   width: 520px;
   text-align: left;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .features__title {
     width: 1120px;
     font-weight: 400;
@@ -461,7 +460,7 @@ button {
   margin-top: 60px;
   position: relative;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .features__cards {
     display: flex;
   }
@@ -469,7 +468,7 @@ button {
 .features__card {
   margin-bottom: 60px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .features__card {
     margin-bottom: 0;
   }
@@ -488,7 +487,7 @@ button {
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   position: relative;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .feature-card {
     height: 290px;
     width: 320px;
@@ -503,7 +502,7 @@ button {
   right: -5px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/DecorationJuju.png);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .feature-card:nth-child(1) {
     top: 0;
     margin-right: 74px;
@@ -524,7 +523,7 @@ button {
   width: 80px;
   height: 80px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .feature-card__illustration {
     width: 120px;
     height: 120px;
@@ -552,7 +551,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .users {
     margin-top: 120px;
   }
@@ -566,7 +565,7 @@ button {
   font-weight: normal;
   text-transform: uppercase;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .users__title-mobile {
     display: none;
   }
@@ -579,7 +578,7 @@ button {
   line-height: 60px;
   text-transform: uppercase;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .users__title {
     display: block;
     width: 1120px;
@@ -593,7 +592,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .users__cards {
     margin-top: 50px;
     width: 1120px;
@@ -610,7 +609,7 @@ button {
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   padding: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .user {
     width: 360px;
     height: 160px;
@@ -639,7 +638,7 @@ button {
   align-items: center;
   background-color: #fff;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .stories {
     margin-top: 153px;
     padding-bottom: 160px;
@@ -655,7 +654,7 @@ button {
   align-items: center;
   text-transform: uppercase;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .stories__title {
     width: 1120px;
   }
@@ -663,7 +662,7 @@ button {
 .stories__cards {
   margin-top: 50px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .stories__cards {
     display: flex;
   }
@@ -674,12 +673,12 @@ button {
 .stories__card:first-of-type {
   margin: 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .stories__card:first-of-type {
     margin-right: 150px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .stories__card {
     margin-top: 0;
   }
@@ -694,7 +693,7 @@ button {
   margin-top: 4px;
   margin-right: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .story-card__content {
     width: 420px;
   }
@@ -715,6 +714,11 @@ button {
   color: #000000;
   margin-top: 20px;
 }
+@media screen and (min-width: 1160px) {
+  .story-card__description {
+    width: 420px;
+  }
+}
 .story-card__description-link {
   color: #000000;
 }
@@ -730,7 +734,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .consultation {
     height: 450px;
   }
@@ -747,12 +751,12 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .consultation__title {
     width: 1120px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .consultation__content {
     width: 1120px;
   }
@@ -765,7 +769,7 @@ button {
   line-height: 40px;
   color: #fff;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .consultation__description {
     width: 630px;
     margin-top: 60px;
@@ -800,7 +804,7 @@ button {
   background-color: #fff;
   box-shadow: 0px 2px 0px #6a9eff;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .consultation .section-title::after {
     top: 70px;
   }
@@ -821,7 +825,7 @@ button {
   align-items: center;
   text-transform: uppercase;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purposes__mobile-title {
     display: none;
   }
@@ -835,7 +839,7 @@ button {
   line-height: 60px;
   text-transform: uppercase;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purposes__title {
     display: block;
     width: 1120px;
@@ -846,7 +850,7 @@ button {
   margin-top: 50px;
   width: 520px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purposes__cards {
     width: 1120px;
     display: flex;
@@ -859,7 +863,7 @@ button {
 .purposes__card:first-of-type {
   margin: 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purposes__card {
     margin: 0;
     margin-bottom: 40px;
@@ -876,7 +880,7 @@ button {
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   display: flex;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purpose {
     width: 540px;
     height: 80px;
@@ -897,7 +901,7 @@ button {
 .purposes .section-title::after {
   top: 130px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .purposes .section-title::after {
     top: 70px;
   }
@@ -913,7 +917,7 @@ button {
   padding: 40px;
   position: relative;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-footer {
     margin: 0;
   }
@@ -944,7 +948,7 @@ button {
 .page-footer__menu-links {
   display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-footer__menu-links {
     display: flex;
     justify-content: space-around;
@@ -983,7 +987,7 @@ button {
   right: 40px;
   bottom: 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page-footer__illustation {
     height: 100px;
     right: 70px;
@@ -1005,7 +1009,7 @@ html {
   overflow-x: hidden;
   background-image: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .page {
     max-width: 1400px;
     margin: auto;

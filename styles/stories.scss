@@ -75,6 +75,9 @@
     line-height: 30px;
     color: $color-black;
     margin-top: 20px;
+    @include for-small-up {
+      width: 420px;
+    }
   }
   &__description-link {
     color: $color-black;
