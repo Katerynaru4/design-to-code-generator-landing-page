@@ -5,8 +5,3 @@ $sm: 1160px;
         @content;
     }
 }
-@mixin for-small-down {
-    @media screen and (max-width: $sm - 1) {
-        @content;
-    }
-}

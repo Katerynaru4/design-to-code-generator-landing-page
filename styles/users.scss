@@ -19,21 +19,19 @@
       display: none;
     }
   }
-
   &__title {
-    margin: 0;
     display: none;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 60px;
-    text-transform: uppercase;
     @include for-small-up {
       display: block;
+      margin: 0;
       width: 1120px;
       font-weight: 400;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      text-transform: uppercase;
     }
   }
-
   &__cards {
     width: 520px;
     margin-top: 40px;
@@ -53,7 +51,7 @@
   width: 250px;
   height: 190px;
   background: $color-white;
-  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  box-shadow: 0px 20px 60px $color-box-shadow;
   padding: 20px;
   @include for-small-up {
     width: 360px;
@@ -67,7 +65,6 @@
     text-transform: uppercase;
     color: $color-text-blue;
   }
-
   &__action {
     margin: 0;
     margin-top: 20px;

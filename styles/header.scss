@@ -5,7 +5,6 @@
   margin: 40px 80px 0;
   @include for-small-up {
     display: flex;
-    background-color: transparent;
     margin: 30px 0 0;
   }
   &__logo {
@@ -15,21 +14,17 @@
       margin-right: 220px;
     }
   }
-
   &__logo-image {
     height: 50px;
     width: 50px;
     margin-right: 10px;
   }
-
   &__logo-text {
-    font-family: Mulish;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: $color-blue;
   }
-
   &__navigation {
     display: none;
     width: 540px;
@@ -39,18 +34,16 @@
       margin-right: 20px;
     }
   }
-
   &__navigation-menu-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: $color-black;
   }
-
   &__upload-btn {
     display: none;
     @include for-small-up {
@@ -59,23 +52,12 @@
       align-items: center;
       height: 50px;
       width: 180px;
-      left: 0px;
-      top: 0px;
-      border-radius: 0px;
-
       font-weight: 700;
       font-size: 14px;
       line-height: 20px;
-      /* or 143% */
-
-      display: flex;
-      align-items: center;
-      text-align: center;
       text-transform: uppercase;
-
       color: $color-white;
-
-      background: $color-blue;
+      background-color: $color-blue;
       box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
     }
   }

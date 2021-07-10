@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   @include for-small-up {
     margin-top: 160px;
     flex-direction: row;
@@ -16,8 +15,7 @@
   width: 540px;
   padding: 40px;
   background-color: $color-white;
-  filter: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
-
+  filter: drop-shadow(0px 20px 60px $color-drop-shadow);
   @include for-small-up {
     &:first-of-type {
       margin-right: 40px;
@@ -29,25 +27,21 @@
     align-items: center;
     height: 100px;
   }
-
   &__reviewer-photo {
     width: 100px;
     height: 100px;
     margin-right: 20px;
   }
-
   &__reviewer-info {
     display: flex;
     flex-direction: column;
   }
-
   &__reviewer-name {
     margin: 0;
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
   }
-
   &__reviewer-position {
     margin: 0;
     font-weight: 600;
@@ -55,13 +49,11 @@
     line-height: 30px;
     color: $color-text-blue;
   }
-
   &__illustration-quote {
     position: absolute;
     top: 0;
     right: 0;
   }
-
   &__text {
     margin-top: 40px;
     margin-bottom: 0;

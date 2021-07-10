@@ -5,22 +5,19 @@
   align-items: center;
   @include for-small-up {
     margin-top: 120px;
-
   }
   &__title {
     margin: 0;
-    font-size: 30px;
-    line-height: 60px;
-    text-transform: uppercase;
     width: 520px;
     text-align: left;
     font-weight: 400;
-
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
     @include for-small-up {
       width: 1120px;
     }
   }
-
   &__cards {
     margin-top: 60px;
     position: relative;
@@ -29,7 +26,6 @@
       height: 370px;
     }
   }
-
   &__card {
     margin-bottom: 60px;
     @include for-small-up {
@@ -44,27 +40,13 @@
   width: 520px;
   height: 200px;
   background: $color-white;
-  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  box-shadow: 0px 20px 60px $color-box-shadow;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   position: relative;
   @include for-small-up {
     height: 290px;
     width: 320px;
-    
-  }
-
-  &::after {
-    content: '';
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    bottom: -5px;
-    right: -5px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/DecorationJuju.png);
-  }
-  @include for-small-up {
     &:nth-child(1) {
       top: 0;
       margin-right: 74px;
@@ -77,12 +59,20 @@
       top: 80px;
     }
   }
+  &::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/DecorationJuju.png);
+  }
 
   &__headline {
     display: flex;
     background-color: $color-light-blue;
   }
-
   &__illustration {
     width: 80px;
     height: 80px;
@@ -91,7 +81,6 @@
       height: 120px;
     }
   }
-
   &__title {
     margin: 0;
     padding: 20px;
@@ -101,7 +90,6 @@
     display: flex;
     align-items: center;
   }
-
   &__description {
     margin: 0;
     font-size: 16px;

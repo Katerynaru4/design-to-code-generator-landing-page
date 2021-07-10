@@ -1,8 +1,8 @@
 .headline {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   @include for-small-up {
     flex-direction: row;
     justify-content: start;
@@ -13,7 +13,6 @@
       padding: 150px 160px 0 0px;
     }
   }
-
   &__title {
     margin: 0;
     font-weight: 600;
@@ -25,46 +24,39 @@
     }
   }
   &__description {
-    margin: 0;
-    margin-top: 20px;
+    margin: 20px 0 0;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     display: flex;
     align-items: center;
-    
     @include for-small-up {
       width: 600px;
-      margin-top: 20px;
     }
   }
-
   &__upload-btn {
     display: none;
-
     @include for-small-up {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-top: 40px;
       height: 50px;
       width: 300px;
-      display: flex;
       background-color: $color-blue;
       box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
       font-weight: 700;
       font-size: 14px;
       line-height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       text-transform: uppercase;
       color: $color-white;
     }
   }
-
   &__mobile-see-in-action-btn {
-    height: 50px;
-    width: 300px;
     display: flex;
     justify-content: center;
+    height: 50px;
+    width: 300px;
     margin-top: 40px;
     font-weight: 700;
     font-size: 14px;
@@ -77,9 +69,7 @@
       display: none;
     }
   }
-
   &__illustration {
-    max-width: 599px;
     margin-top: 80px;
     @include for-small-up {
       position: absolute;
@@ -87,8 +77,10 @@
       right: 0;
     }
   }
-
   &__mobile-upload-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 180px;
     padding: 30px 60px;
@@ -96,9 +88,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-transform: uppercase;
     color: $color-white;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);

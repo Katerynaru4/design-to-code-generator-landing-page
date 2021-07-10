@@ -1,15 +1,14 @@
 .page-footer {
+  display: flex;
   margin-top: 60px;
   margin-bottom: 90px;
   height: 130px;
   width: 100%;
-  background: $color-footer;
-  display: flex;
+  background-color: $color-footer;
   padding: 40px;
   position: relative;
   @include for-small-up {
     margin: 0;
-    
   }
   &__logo {
     display: flex;
@@ -17,26 +16,23 @@
     width: 250px;
     margin-right: 50px;
   }
-
   &__logo-image {
     height: 50px;
     width: 50px;
   }
-
   &__logo-text {
     margin: 0;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(25, 104, 252, 0.05);
-    color: $color-blue;
     width: 200px;
     height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: $color-background-blue;
+    color: $color-blue;
   }
-
   &__menu-links {
     display: none;
     @include for-small-up {
@@ -44,7 +40,6 @@
       justify-content: space-around;
     }
   }
-
   &__menu-link {
     height: 50px;
     width: 120px;
@@ -54,28 +49,24 @@
     color: $color-black;
     text-decoration: none;
   }
-
   &__social-links {
     display: flex;
   }
-
   &__social-fb {
     display: flex;
-    width: 50px;
-    height: 50px;
     justify-content: center;
     align-items: center;
+    width: 50px;
+    height: 50px;
     margin-right: 3px;
   }
-
   &__social-inst {
     display: flex;
-    width: 50px;
-    height: 50px;
     justify-content: center;
     align-items: center;
+    width: 50px;
+    height: 50px;
   }
-
   &__illustation {
     position: absolute;
     height: 60px;
