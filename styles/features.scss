@@ -13,9 +13,10 @@
     text-transform: uppercase;
     width: 520px;
     text-align: left;
+    font-weight: 400;
+
     @include for-small-up {
       width: 1120px;
-      font-weight: 400;
     }
   }
 

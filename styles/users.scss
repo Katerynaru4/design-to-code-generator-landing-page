@@ -5,6 +5,7 @@
   align-items: center;
   @include for-small-up {
     margin-top: 120px;
+    height: 370px;
   }
   &__title-mobile {
     margin: 0;

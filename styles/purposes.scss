@@ -21,14 +21,13 @@
     margin: 0;
     display: none;
     width: 520px;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     line-height: 60px;
     text-transform: uppercase;
     @include for-small-up {
       display: block;
       width: 1120px;
-      font-weight: 400;
     }
   }
 
@@ -77,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
     margin: 0;
   }
 }
