@@ -8,9 +8,9 @@
     justify-content: start;
   }
   &__content {
-    margin: 80px 80px 0px 80px;
+    padding: 80px 80px 0px 80px;
     @include for-small-up {
-      margin: 150px 160px 0 0px;
+      padding: 150px 160px 0 0px;
     }
   }
 
@@ -27,7 +27,7 @@
   &__description {
     margin: 0;
     margin-top: 20px;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     display: flex;
@@ -49,7 +49,7 @@
       display: flex;
       background-color: $color-blue;
       box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
-      font-weight: bold;
+      font-weight: 700;
       font-size: 14px;
       line-height: 20px;
       display: flex;
@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 50px;
     text-transform: uppercase;
