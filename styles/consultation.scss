@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   @include for-small-up {
     height: 450px;
   }
@@ -43,13 +44,14 @@
     @include for-small-up {
       width: 640px;
       margin-top: 60px;
+      padding-right: 10px;
     }
   }
-  &__btn {
+  &__button {
     width: 520px;
     margin-top: 40px;
   }
-  &__btn button {
+  &__button button {
     margin: 0;
 
     margin-right: auto;
@@ -69,6 +71,12 @@
 
   &__illustration {
     display: none;
+    @include for-small-up {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 1px;
+    }
   }
 }
 .consultation .section-title::after {

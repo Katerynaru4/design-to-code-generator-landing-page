@@ -738,6 +738,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 @media screen and (min-width: 1160px) {
   .consultation {
@@ -779,13 +780,14 @@ button {
   .consultation__description {
     width: 640px;
     margin-top: 60px;
+    padding-right: 10px;
   }
 }
-.consultation__btn {
+.consultation__button {
   width: 520px;
   margin-top: 40px;
 }
-.consultation__btn button {
+.consultation__button button {
   margin: 0;
   margin-right: auto;
   background-color: #fff;
@@ -803,6 +805,14 @@ button {
 }
 .consultation__illustration {
   display: none;
+}
+@media screen and (min-width: 1160px) {
+  .consultation__illustration {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 1px;
+  }
 }
 
 .consultation .section-title::after {
