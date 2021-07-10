@@ -98,7 +98,7 @@ button {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -125,11 +125,11 @@ button {
   }
 }
 .headline__content {
-  margin: 80px 80px 0px 80px;
+  padding: 80px 80px 0px 80px;
 }
 @media screen and (min-width: 1160px) {
   .headline__content {
-    margin: 150px 160px 0 0px;
+    padding: 150px 160px 0 0px;
   }
 }
 .headline__title {
@@ -147,7 +147,7 @@ button {
 .headline__description {
   margin: 0;
   margin-top: 20px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 40px;
   display: flex;
@@ -170,7 +170,7 @@ button {
     display: flex;
     background-color: #1968fc;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     display: flex;
@@ -186,7 +186,7 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 50px;
   text-transform: uppercase;
@@ -232,7 +232,7 @@ button {
 }
 
 .reviews {
-  margin-top: 50px;
+  margin-top: 50px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -311,7 +311,7 @@ button {
 }
 .wokflow__title {
   margin: 0;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -405,14 +405,14 @@ button {
 }
 .step-card__subtitle {
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
   line-height: 20px;
   text-transform: uppercase;
 }
 .step-card__title {
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 40px;
   text-transform: uppercase;
@@ -421,7 +421,7 @@ button {
 .step-card__description {
   margin: 0;
   margin-top: 10px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
@@ -551,7 +551,7 @@ button {
 }
 
 .users {
-  margin-top: 125px;
+  margin: 125px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -568,7 +568,7 @@ button {
   font-size: 30px;
   line-height: 60px;
   text-align: left;
-  font-weight: normal;
+  font-weight: 400;
   text-transform: uppercase;
 }
 @media screen and (min-width: 1160px) {
@@ -579,7 +579,7 @@ button {
 .users__title {
   margin: 0;
   display: none;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -623,7 +623,7 @@ button {
 }
 .user__title {
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 40px;
   text-transform: uppercase;
@@ -632,7 +632,7 @@ button {
 .user__action {
   margin: 0;
   margin-top: 20px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
@@ -655,7 +655,7 @@ button {
   width: 520px;
   font-size: 30px;
   line-height: 60px;
-  font-weight: normal;
+  font-weight: 400;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -747,8 +747,7 @@ button {
 .consultation__title {
   margin: 0;
   width: 520px;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 60px;
   display: flex;
@@ -778,7 +777,7 @@ button {
 }
 @media screen and (min-width: 1160px) {
   .consultation__description {
-    width: 630px;
+    width: 640px;
     margin-top: 60px;
   }
 }
@@ -847,7 +846,7 @@ button {
   margin: 0;
   display: none;
   width: 520px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
