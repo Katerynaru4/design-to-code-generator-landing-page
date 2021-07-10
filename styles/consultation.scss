@@ -47,13 +47,12 @@
       padding-right: 10px;
     }
   }
-  &__button {
+  &__button-container{
     width: 520px;
     margin-top: 40px;
   }
-  &__button button {
+  &__button {
     margin: 0;
-
     margin-right: auto;
     background-color: $color-white;
     box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);

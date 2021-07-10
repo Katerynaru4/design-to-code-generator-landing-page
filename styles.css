@@ -9,7 +9,7 @@ button {
 .section-title::after {
   content: "";
   position: absolute;
-  top: 60px;
+  top: 70px;
   left: 0;
   width: 80px;
   height: 2px;
@@ -19,7 +19,6 @@ button {
 @media screen and (min-width: 1160px) {
   .section-title::after {
     left: -40px;
-    top: 70px;
   }
 }
 
@@ -463,6 +462,7 @@ button {
 @media screen and (min-width: 1160px) {
   .features__cards {
     display: flex;
+    height: 370px;
   }
 }
 .features__card {
@@ -783,11 +783,11 @@ button {
     padding-right: 10px;
   }
 }
-.consultation__button {
+.consultation__button-container {
   width: 520px;
   margin-top: 40px;
 }
-.consultation__button button {
+.consultation__button {
   margin: 0;
   margin-right: auto;
   background-color: #fff;
