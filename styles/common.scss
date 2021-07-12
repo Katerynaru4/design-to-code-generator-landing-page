@@ -1,8 +1,11 @@
 button {
   border: none;
   outline: none;
+  cursor: pointer;
 }
-
+a {
+  cursor: pointer;
+}
 .section-title {
   position: relative;
   &::after {
@@ -18,4 +21,3 @@ button {
     }
   }
 }
-
